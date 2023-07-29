@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 1;
+  padding: 1;
+}
+
+header {
+  
+  background-color: darkcyan;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: saddlebrown;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: coral;
+  color: navajowhite;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.feature {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.feature img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: dimgrey;
+  color: floralwhite;
+  padding: 20px;
+  text-align: center;
+}
